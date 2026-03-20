@@ -1,3 +1,6 @@
+from sysinfo import show_sysinfo
+
+
 def main():
     while True:
         print("\n===== DevOps Dashboard =====")
@@ -9,7 +12,7 @@ def main():
         choice = input("Select an option: ")
 
         if choice == "1":
-            print("Coming soon...")
+            show_sysinfo()
         elif choice == "2":
             print("Coming soon...")
         elif choice == "3":
