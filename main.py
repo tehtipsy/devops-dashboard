@@ -1,4 +1,5 @@
 from sysinfo import show_sysinfo
+from logcheck import check_log
 
 
 def main():
@@ -14,7 +15,7 @@ def main():
         if choice == "1":
             show_sysinfo()
         elif choice == "2":
-            print("Coming soon...")
+            check_log()
         elif choice == "3":
             print("Coming soon...")
         elif choice == "0":
