@@ -1,5 +1,6 @@
 from sysinfo import show_sysinfo
 from logcheck import check_log
+from tasklist import manage_tasks
 
 
 def main():
@@ -17,7 +18,7 @@ def main():
         elif choice == "2":
             check_log()
         elif choice == "3":
-            print("Coming soon...")
+            manage_tasks()
         elif choice == "0":
             print("Goodbye!")
             break
